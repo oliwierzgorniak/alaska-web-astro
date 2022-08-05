@@ -4,9 +4,9 @@ import Project from "./projects/Project";
 const Projects = () => (
   <section>
     <div>
-      <img src="/wave.svg" alt="fala" />
+      <img src="/images/wave.svg" alt="fala" />
       <h2>Projekty</h2>
-      <img src="/wave.svg" alt="fala" />
+      <img src="/images/wave.svg" alt="fala" />
     </div>
 
     {projects.map(({ name, description, link, github, image }) => (

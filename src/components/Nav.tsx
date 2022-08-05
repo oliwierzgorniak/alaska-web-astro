@@ -3,7 +3,7 @@ import Menu from "./nav/Menu";
 
 const Nav = () => (
   <nav>
-    <img src="/logo-dark.svg" alt="logo Alaska Web" />
+    <img src="/images/logo-dark.svg" alt="logo Alaska Web" />
     <Language />
     <Menu />
   </nav>

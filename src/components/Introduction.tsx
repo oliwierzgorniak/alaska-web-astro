@@ -4,9 +4,9 @@ const Introduction = () => (
       Hej, nazywam się Oliwier <br />
       Zajmuję się tworzeniem stron internetowych
     </h1>
-    <img src="/me.png" alt="moje zdjęcie" />
+    <img src="/images/me.png" alt="moje zdjęcie" />
     <button>
-      <img src="/contact-button.svg" alt="grafika kontaktu ze mną" />
+      <img src="/images/contact-button.svg" alt="grafika kontaktu ze mną" />
     </button>
   </header>
 );

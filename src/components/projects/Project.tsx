@@ -11,10 +11,10 @@ const Project = ({ name, description, link, github, image }: Props) => (
     <h3>{name}</h3>
     <p>{description}</p>
     <a href={link}>
-      <img src="/external-link.svg" alt="ikonka zewnętrznego linku" />
+      <img src="/images/external-link.svg" alt="ikonka zewnętrznego linku" />
     </a>
     <a href={github}>
-      <img src="/Github-black.png" alt="ikonka Githuba" />
+      <img src="/images/Github-black.png" alt="ikonka Githuba" />
     </a>
     <img src={image} alt="zdjęcie projektu" />
   </div>
