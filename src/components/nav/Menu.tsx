@@ -1,5 +1,7 @@
+import styles from "../../styles/menu.module.scss";
+
 const Menu = () => (
-  <div>
+  <div className={styles.container}>
     <div></div>
     <div></div>
     <div></div>

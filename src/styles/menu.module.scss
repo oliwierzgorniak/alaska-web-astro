@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  div {
+    width: 40px;
+    height: 6px;
+    background-color: var(--color1);
+  }
+}
