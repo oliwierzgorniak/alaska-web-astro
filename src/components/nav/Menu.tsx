@@ -1,11 +1,54 @@
-import styles from "../../styles/menu.module.scss";
+import { motion, AnimatePresence } from "framer-motion";
 
-const Menu = () => (
-  <div className={styles.container}>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
+const slideIn = {
+  hidden: {
+    x: "-100%",
+  },
+  visible: {
+    x: "0",
+  },
+  exit: {
+    x: "-100%",
+  },
+};
+
+type Props = {
+  menuOpen: boolean;
+};
+
+const Menu = ({ menuOpen }: Props) => (
+  <motion.div
+    transition={{ type: "tween" }}
+    variants={slideIn}
+    inital="hidden"
+    animate="visible"
+    exit="exit"
+    className="fixed top-0 left-0 translate-x-[-100%] h-full bg-[white] p-10 drop-shadow-xl
+    "
+  >
+    <ul>
+      <li className="mb-4">
+        <a className="text-2xl" href="#projekty">
+          projekty
+        </a>
+      </li>
+      <li className="mb-4">
+        <a className="text-2xl mb-2" href="#projekty">
+          projekty
+        </a>
+      </li>
+      <li className="mb-4">
+        <a className="text-2xl mb-2" href="#projekty">
+          projekty
+        </a>
+      </li>
+      <li className="mb-4">
+        <a className="text-2xl mb-2" href="#projekty">
+          projekty
+        </a>
+      </li>
+    </ul>
+  </motion.div>
 );
 
 export default Menu;
