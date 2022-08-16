@@ -1,5 +1,5 @@
 const Contact = () => (
-  <section className="py-6">
+  <section className="pb-20">
     <img className="w-full" src="/images/contact.svg" alt="góry i las" />
     <div className="flex flex-col items-center my-[-2rem]">
       <h2 className="text-3xl mb-10">Kontakt</h2>
