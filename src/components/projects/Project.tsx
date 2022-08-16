@@ -7,7 +7,7 @@ type Props = {
 };
 
 const Project = ({ name, description, link, github, image }: Props) => (
-  <div className="border-2 px-10 py-10">
+  <div key={link} className="border-2 px-10 py-10">
     <h3 className="mb-3 font-semibold">{name}</h3>
     <p className="mb-5">{description}</p>
     <div className="flex gap-1 mb-8">
