@@ -15,7 +15,7 @@ const Nav = () => {
         exitBeforeEnter={true}
         onExitComplete={() => null}
       >
-        {menuOpen && <Menu menuOpen={menuOpen} />}
+        {menuOpen && <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />}
       </AnimatePresence>
       <img className="w-22" src="/images/logo-dark.svg" alt="logo Alaska Web" />
       <div className="flex gap-9">
