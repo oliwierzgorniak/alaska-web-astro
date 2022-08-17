@@ -9,7 +9,7 @@ const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="m-6 mb-36 flex justify-between">
+    <nav className=" m-6 mb-36 flex justify-between">
       <AnimatePresence
         initial={false}
         exitBeforeEnter={true}
