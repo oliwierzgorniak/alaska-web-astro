@@ -12,13 +12,13 @@ const Introduction = () => (
       src="/images/me.png"
       alt="moje zdjęcie"
     />
-    <button className="self-start justify-self-center">
+    <a href="#kontakt" className="self-start justify-self-center">
       <img
         className="h-40"
         src="/images/contact-button.svg"
         alt="grafika kontaktu ze mną"
       />
-    </button>
+    </a>
   </header>
 );
 

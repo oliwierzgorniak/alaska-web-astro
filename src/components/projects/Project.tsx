@@ -26,7 +26,9 @@ const Project = ({ name, description, link, github, image }: Props) => (
         />
       </a>
     </div>
-    <img src={image} alt="zdjęcie projektu" />
+    <a href={link} target="_blank">
+      <img src={image} alt="zdjęcie projektu" />
+    </a>
   </div>
 );
 

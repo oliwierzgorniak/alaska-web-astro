@@ -7,10 +7,13 @@ const Contact = () => (
         Email: <br />
         <span className="font-normal">oliwier.zgorniak@protonmail.com</span>
       </span>
-      <button className="bg-accent flex gap-4 p-5 text-[white] font-semibold tracking-wide text-lg items-center rounded-sm">
+      <a
+        href="mailto:oliwier.zgorniak@protonmail.com"
+        className="bg-accent flex gap-4 p-5 text-[white] font-semibold tracking-wide text-lg items-center rounded-sm"
+      >
         wyślij maila
         <img className="h-6" src="/images/email.svg" alt="ikonka email" />
-      </button>
+      </a>
     </div>
   </section>
 );
