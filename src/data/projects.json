@@ -1,9 +1,26 @@
-[
-  {
-    "name": "Mapartments",
-    "description": "Strona z apartamentami na wynajem w Krakowie",
-    "link": "https://mapartments-krakow.netlify.app/",
-    "github": "https://github.com/oliwierzgorniak/mapartments",
-    "image": "/images/mapartments.png"
+{
+  "pl": {
+    "title": "Projekty",
+    "projs": [
+      {
+        "name": "Mapartments",
+        "description": "Strona z apartamentami na wynajem w Krakowie",
+        "link": "https://mapartments-krakow.netlify.app/",
+        "github": "https://github.com/oliwierzgorniak/mapartments",
+        "image": "/images/mapartments.png"
+      }
+    ]
+  },
+  "en": {
+    "title": "Projects",
+    "projs": [
+      {
+        "name": "Mapartments",
+        "description": "A wesbite with apartments for rent in Krakow",
+        "link": "https://mapartments-krakow.netlify.app/",
+        "github": "https://github.com/oliwierzgorniak/mapartments",
+        "image": "/images/mapartments.png"
+      }
+    ]
   }
-]
+}
