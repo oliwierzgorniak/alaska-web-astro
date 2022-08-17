@@ -5,7 +5,10 @@ type Props = {
 };
 
 const About = ({ lang }: Props) => (
-  <section className="flex gap-7 px-6 py-16 bg-background" id="omnie">
+  <section
+    className="flex gap-7 px-6 py-16 bg-background"
+    id={about[lang].sectionId}
+  >
     <img className="self-end" src="/images/forrest.svg" alt="las" />
     <div>
       <h2>{about[lang].title}</h2>

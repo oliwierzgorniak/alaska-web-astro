@@ -1,0 +1,14 @@
+{
+  "pl": {
+    "sectionId": "contact",
+    "imgAlt": "góry i las",
+    "title": "Kontakt",
+    "buttonText": "wyślij maila"
+  },
+  "en": {
+    "sectionId": "kontakt",
+    "imgAlt": "mountains and a forrest",
+    "title": "Contact",
+    "buttonText": "send an email"
+  }
+}

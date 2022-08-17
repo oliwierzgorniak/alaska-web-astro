@@ -1,9 +1,11 @@
 {
   "pl": {
+    "sectionId": "omnie",
     "title": "O mnie",
     "text": "Strony internetowe to moja pasja. Zajmuję się nimi prawie codziennie. Z moją pomocą możesz mieć własną stronę w internecie bez technicznych umiejętności. Potrafię projektować, kodować i hostować strony internetowe."
   },
   "en": {
+    "sectionId": "about",
     "title": "About me",
     "text": "Creating websites is my passion. I do it almost everyday. With my help, you can have your own web page without tech skills. I can design, code and, host websites."
   }

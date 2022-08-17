@@ -7,7 +7,10 @@ type Props = {
 
 const Projects = (props: Props) => {
   return (
-    <section className="flex flex-col items-center px-6 py-16" id="projekty">
+    <section
+      className="flex flex-col items-center px-6 py-16"
+      id={projects[props.lang].sectionId}
+    >
       <div className="flex gap-2 m-auto mb-7">
         <img src="/images/wave.svg" alt="fala" />
         <h2 className="mb-2">{projects[props.lang].title}</h2>

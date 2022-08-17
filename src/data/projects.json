@@ -1,5 +1,6 @@
 {
   "pl": {
+    "sectionId": "projekty",
     "title": "Projekty",
     "projs": [
       {
@@ -12,6 +13,7 @@
     ]
   },
   "en": {
+    "sectionId": "projects",
     "title": "Projects",
     "projs": [
       {
