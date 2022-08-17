@@ -20,7 +20,7 @@ type Props = {
 const Menu = ({ menuOpen, setMenuOpen }: Props) => (
   <div
     onClick={() => setMenuOpen(false)}
-    className="fixed top-0 left-0 h-full w-full"
+    className="fixed top-0 left-0 h-full w-full bg-[#00000022]"
   >
     <motion.div
       onClick={(e) => {
@@ -31,7 +31,7 @@ const Menu = ({ menuOpen, setMenuOpen }: Props) => (
       inital="hidden"
       animate="visible"
       exit="exit"
-      className="fixed top-0 left-0 translate-x-[-100%] h-full bg-[white] p-10 drop-shadow-xl
+      className="fixed top-0 left-0 translate-x-[-100%] h-full bg-[white] p-10 drop-shadow-xl z-20
     "
     >
       <ul>
