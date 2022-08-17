@@ -1,4 +1,6 @@
-import { motion, AnimatePresence } from "framer-motion";
+import nav from "../../data/nav.json";
+
+import { motion } from "framer-motion";
 
 const slideIn = {
   hidden: {
@@ -13,11 +15,11 @@ const slideIn = {
 };
 
 type Props = {
-  menuOpen: boolean;
   setMenuOpen: (menuOpen: boolean) => void;
+  lang: string;
 };
 
-const Menu = ({ menuOpen, setMenuOpen }: Props) => (
+const Menu = ({ setMenuOpen, lang }: Props) => (
   <div
     onClick={() => setMenuOpen(false)}
     className="fixed top-0 left-0 h-full w-full bg-[#00000022]"
@@ -41,7 +43,7 @@ const Menu = ({ menuOpen, setMenuOpen }: Props) => (
             className="text-3xl underline transition ease-in-out hover:text-accent block hover:translate-x-1 hover:duration-300"
             href="#omnie"
           >
-            #o mnie
+            {nav[lang].menuList[0]}
           </a>
         </li>
         <li className="mb-10">
@@ -50,7 +52,7 @@ const Menu = ({ menuOpen, setMenuOpen }: Props) => (
             className="text-3xl underline transition ease-in-out hover:text-accent block hover:translate-x-1 hover:duration-300"
             href="#projekty"
           >
-            #projekty
+            {nav[lang].menuList[1]}
           </a>
         </li>
         <li className="mb-10">
@@ -59,7 +61,7 @@ const Menu = ({ menuOpen, setMenuOpen }: Props) => (
             className="text-3xl underline transition ease-in-out hover:text-accent block hover:translate-x-1 hover:duration-300"
             href="#kontakt"
           >
-            #kontakt
+            {nav[lang].menuList[2]}
           </a>
         </li>
       </ul>
@@ -72,7 +74,7 @@ const Menu = ({ menuOpen, setMenuOpen }: Props) => (
           <img
             className="w-[34px] h-[34px]"
             src="/images/Github-black.png"
-            alt="logo Githuba"
+            alt={nav[lang].menuImgs.github}
           />
         </a>
         <a
@@ -83,7 +85,7 @@ const Menu = ({ menuOpen, setMenuOpen }: Props) => (
           <img
             className="w-[34px]"
             src="/images/Twitter-black.svg"
-            alt="logo Twittera"
+            alt={nav[lang].menuImgs.twitter}
           />
         </a>
       </div>

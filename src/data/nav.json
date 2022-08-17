@@ -1,0 +1,9 @@
+{
+  "pl": {
+    "menuList": ["#o mnie", "#projekty", "#kontakt"],
+    "menuImgs": {
+      "twitter": "logo Twittera",
+      "github": "logo githuba"
+    }
+  }
+}
