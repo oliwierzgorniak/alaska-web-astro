@@ -1,0 +1,19 @@
+{
+  "pl": {
+    "text": [
+      "Hej nazywam się Oliwier",
+      "Zajmuję się tworzeniem stron internetowych"
+    ],
+    "myImageAlt": "moje zdjęcie",
+    "img": "/images/contact-pl.svg",
+    "imgAlt": "grafika z łapą niedźwiedzia",
+    "contactLink": "#kontakt"
+  },
+  "en": {
+    "text": ["Hi my name is Olwier", "I create cool websites"],
+    "myImageAlt": "my photo",
+    "img": "/images/contact-en.svg",
+    "imgAlt": "graphic with a bear's paw",
+    "contactLink": "#contact"
+  }
+}

@@ -1,9 +1,18 @@
 {
   "pl": {
     "menuList": ["#o mnie", "#projekty", "#kontakt"],
+    "menuLinks": ["#omnie", "#projekty", "#kontakt"],
     "menuImgs": {
       "twitter": "logo Twittera",
       "github": "logo githuba"
+    }
+  },
+  "en": {
+    "menuList": ["#about", "#projects", "#contact"],
+    "menuLinks": ["#about", "#projects", "#contact"],
+    "menuImgs": {
+      "twitter": "Twitter logo",
+      "github": "Github logo"
     }
   }
 }

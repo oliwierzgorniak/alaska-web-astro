@@ -41,7 +41,7 @@ const Menu = ({ setMenuOpen, lang }: Props) => (
           <a
             onClick={() => setMenuOpen(false)}
             className="text-3xl underline transition ease-in-out hover:text-accent block hover:translate-x-1 hover:duration-300"
-            href="#omnie"
+            href={nav[lang].menuLinks[0]}
           >
             {nav[lang].menuList[0]}
           </a>
@@ -50,7 +50,7 @@ const Menu = ({ setMenuOpen, lang }: Props) => (
           <a
             onClick={() => setMenuOpen(false)}
             className="text-3xl underline transition ease-in-out hover:text-accent block hover:translate-x-1 hover:duration-300"
-            href="#projekty"
+            href={nav[lang].menuLinks[1]}
           >
             {nav[lang].menuList[1]}
           </a>
@@ -59,7 +59,7 @@ const Menu = ({ setMenuOpen, lang }: Props) => (
           <a
             onClick={() => setMenuOpen(false)}
             className="text-3xl underline transition ease-in-out hover:text-accent block hover:translate-x-1 hover:duration-300"
-            href="#kontakt"
+            href={nav[lang].menuLinks[2]}
           >
             {nav[lang].menuList[2]}
           </a>
