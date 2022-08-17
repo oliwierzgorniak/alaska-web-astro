@@ -37,14 +37,16 @@ const Menu = ({ menuOpen, setMenuOpen }: Props) => (
       <ul className="mt-12">
         <li className="mb-10">
           <a
+            onClick={() => setMenuOpen(false)}
             className="text-3xl underline transition ease-in-out hover:text-accent block hover:translate-x-1 hover:duration-300"
-            href="#projekty"
+            href="#omnie"
           >
             #o mnie
           </a>
         </li>
         <li className="mb-10">
           <a
+            onClick={() => setMenuOpen(false)}
             className="text-3xl underline transition ease-in-out hover:text-accent block hover:translate-x-1 hover:duration-300"
             href="#projekty"
           >
@@ -53,8 +55,9 @@ const Menu = ({ menuOpen, setMenuOpen }: Props) => (
         </li>
         <li className="mb-10">
           <a
+            onClick={() => setMenuOpen(false)}
             className="text-3xl underline transition ease-in-out hover:text-accent block hover:translate-x-1 hover:duration-300"
-            href="#projekty"
+            href="#kontakt"
           >
             #kontakt
           </a>

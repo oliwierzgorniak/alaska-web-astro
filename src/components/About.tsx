@@ -1,5 +1,5 @@
 const About = () => (
-  <section className="flex gap-7 px-6 py-16 bg-background">
+  <section className="flex gap-7 px-6 py-16 bg-background" id="omnie">
     <img className="self-end" src="/images/forrest.svg" alt="las" />
     <div>
       <h2>O mnie</h2>
