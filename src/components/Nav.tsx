@@ -21,8 +21,8 @@ const Nav = ({ lang }: Props) => {
       >
         {menuOpen && <Menu lang={lang} setMenuOpen={setMenuOpen} />}
       </AnimatePresence>
-      <img className="w-22" src="/images/logo-dark.svg" alt="logo Alaska Web" />
-      <div className="flex gap-9">
+      <img className="w-18" src="/images/logo-dark.svg" alt="logo Alaska Web" />
+      <div className="flex gap-2">
         <Language lang={lang} />
         <MenuButton menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       </div>
