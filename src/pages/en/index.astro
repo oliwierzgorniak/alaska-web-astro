@@ -1,0 +1,28 @@
+---
+import Nav from '../../components/Nav'
+import Introduction from '../../components/Introduction'
+import About from '../../components/About'
+import Projects from '../../components/Projects'
+import Contact from '../../components/Contact'
+import Footer from '../../components/Footer'
+import "../../styles/global.scss";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="My name is Oliwier and I create websites. With my help, you can have your own web page without technical skills.">
+		<title>Alaska Web</title>
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="icon" href="/images/icon.svg" />
+	</head>
+	<body>
+		<Nav lang="en" client:load />
+		<Introduction lang="en" />
+		<About lang="en" />
+		<Projects lang="pl" />
+		<Contact lang="pl"/>
+		<Footer lang="pl" />
+	</body>
+</html>
