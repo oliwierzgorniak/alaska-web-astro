@@ -5,7 +5,8 @@
     "menuImgs": {
       "twitter": "logo Twittera",
       "github": "logo githuba"
-    }
+    },
+    "logoAlt": "logo Alaska Web"
   },
   "en": {
     "menuList": ["#about", "#projects", "#contact"],

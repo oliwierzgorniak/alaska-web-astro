@@ -2,7 +2,7 @@
   "pl": {
     "sectionId": "projekty",
     "title": "Projekty",
-    "projs": [
+    "projects": [
       {
         "name": "Mapartments",
         "description": "Strona z apartamentami na wynajem w Krakowie",
@@ -15,7 +15,7 @@
   "en": {
     "sectionId": "projects",
     "title": "Projects",
-    "projs": [
+    "projects": [
       {
         "name": "Mapartments",
         "description": "A wesbite with apartments for rent in Krakow",

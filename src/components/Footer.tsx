@@ -1,7 +1,17 @@
-const Footer = () => (
+import footer from "../data/footer.json";
+
+type Props = {
+  lang: string;
+};
+
+const Footer = ({ lang }: Props) => (
   <footer className="bg-primary flex justify-between px-6 py-8 mt-[2rem]">
-    <img className="w-28" src="/images/logo-light.svg" alt="logo Alaska Web" />
-    <div className="flex  items-center">
+    <img
+      className="w-28"
+      src="/images/logo-light.svg"
+      alt={footer[lang].logoAlt}
+    />
+    <div className="flex items-center">
       <a
         className="p-[9px]"
         href="https://twitter.com/oliwierzgorniak"
@@ -10,7 +20,7 @@ const Footer = () => (
         <img
           className="w-[34px] h-[34px]"
           src="/images/Github-white.png"
-          alt="logo Githuba"
+          alt={footer[lang].github}
         />
       </a>
       <a
@@ -21,7 +31,7 @@ const Footer = () => (
         <img
           className="w-[34px]"
           src="/images/Twitter-white.svg"
-          alt="logo Twittera"
+          alt={footer[lang].twitter}
         />
       </a>
     </div>
