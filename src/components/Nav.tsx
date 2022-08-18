@@ -23,7 +23,7 @@ const Nav = ({ lang }: Props) => {
       </AnimatePresence>
       <img className="w-22" src="/images/logo-dark.svg" alt="logo Alaska Web" />
       <div className="flex gap-9">
-        <Language />
+        <Language lang={lang} />
         <MenuButton menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       </div>
     </nav>

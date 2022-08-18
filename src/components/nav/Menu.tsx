@@ -70,6 +70,7 @@ const Menu = ({ setMenuOpen, lang }: Props) => (
           className="p-[9px]"
           href="https://twitter.com/oliwierzgorniak"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             className="w-[34px] h-[34px]"
@@ -81,6 +82,7 @@ const Menu = ({ setMenuOpen, lang }: Props) => (
           className="p-[9px]"
           href="https://github.com/oliwierzgorniak"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             className="w-[34px]"

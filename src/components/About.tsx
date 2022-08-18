@@ -12,12 +12,7 @@ const About = ({ lang }: Props) => (
     <img className="self-end" src="/images/forrest.svg" alt="las" />
     <div>
       <h2>{about[lang].title}</h2>
-      <p>
-        Strony internetowe to moja pasja. Zajmuję się nimi prawie codziennie. Z
-        moją pomocą możesz mieć własną stronę w internecie bez technicznych
-        umiejętności. Potrafię projektować, kodować i hostować strony
-        internetowe.
-      </p>
+      <p>{about[lang].text}</p>
     </div>
   </section>
 );
