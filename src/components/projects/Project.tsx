@@ -7,20 +7,20 @@ type Props = {
 };
 
 const Project = ({ name, description, link, github, image }: Props) => (
-  <div key={link} className="border-2 px-10 py-10">
+  <div key={link} className=" border-2 px-10 py-10">
     <h3 className="mb-3 font-semibold">{name}</h3>
     <p className="mb-5">{description}</p>
     <div className="flex gap-1 mb-8">
       <a className="p-2" href={link} rel="noopener noreferrer">
         <img
-          className="h-10"
+          className="h-9"
           src="/images/external-link.svg"
           alt="ikonka zewnętrznego linku"
         />
       </a>
       <a className="p-2" href={github} rel="noopener noreferrer">
         <img
-          className="h-10"
+          className="h-9"
           src="/images/Github-black.png"
           alt="ikonka Githuba"
         />
