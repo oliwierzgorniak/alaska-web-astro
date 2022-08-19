@@ -10,7 +10,7 @@ const About = ({ lang }: Props) => (
     id={about[lang].sectionId}
   >
     <img
-      className="self-end h-[10vw] min-h-[3.5rem] max-w-[6rem]"
+      className="self-end h-[10vw] min-h-[3.5rem] max-h-[6rem]"
       src="/images/forrest.svg"
       alt="las"
     />

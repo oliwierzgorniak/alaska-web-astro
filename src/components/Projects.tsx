@@ -11,10 +11,10 @@ const Projects = ({ lang }: Props) => {
       className="flex flex-col items-center px-6 py-16"
       id={projects[lang].sectionId}
     >
-      <div className="flex gap-2 m-auto mb-7">
-        <img src="/images/wave.svg" alt="fala" />
+      <div className="flex items-center gap-2 m-auto mb-7">
+        <img className="w-8" src="/images/wave.svg" alt="fala" />
         <h2 className="mb-2">{projects[lang].title}</h2>
-        <img src="/images/wave.svg" alt="fala" />
+        <img className="w-8" src="/images/wave.svg" alt="fala" />
       </div>
 
       <div className="flex flex-col gap-6">
