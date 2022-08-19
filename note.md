@@ -12,6 +12,12 @@
 - https://codepen.io/piccalilli/details/zXXxXa
 - https://archive.hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/
 
+## notes
+
+- pink photo librewolf
+
+## licenses
+
 ### responsive layout in projects section
 
 Copyright (c) 2022 by Piccalilli (https://codepen.io/piccalilli/pen/zXXxXa)

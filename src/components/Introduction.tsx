@@ -14,11 +14,34 @@ const Introduction = ({ lang }: Props) => (
         <br />
         {intro[lang].text[1]}
       </h1>
-      <img
-        className="w-[40vw] max-w-[300px] col-start-2 row-start-1 row-end-3 self-end block xl:max-w-[350px] 2xl:max-w-[400px]"
-        src="/images/me.png"
-        alt={intro[lang].myImgAlt}
-      />
+      <picture className="col-start-2 row-start-1 row-end-3 self-end ">
+        <source
+          srcset="/images/me-420-70.avif"
+          media="(min-width: 2500px)"
+          type="image/avif"
+        />
+        <source
+          srcset="/images/me-420-40.png"
+          media="(min-width: 2500px)"
+          type="image/png"
+        />
+        <source
+          srcset="/images/me-320-70.avif"
+          media="(min-width: 420px)"
+          type="image/avif"
+        />
+        <source
+          srcset="/images/me-320-40.png"
+          media="(min-width: 420px)"
+          type="image/png"
+        />
+        <source srcset="/images/me-170-70.avif" type="image/avif" />
+        <img
+          className="w-[40vw] max-w-[300px] block xl:max-w-[350px] 2xl:max-w-[400px]"
+          src="/images/me-170-40.png"
+          alt={intro[lang].myImgAlt}
+        />
+      </picture>
       <a
         href={intro[lang].contactLink}
         className="self-start justify-self-center m-4 xl:m-8"

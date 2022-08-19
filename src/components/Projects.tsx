@@ -22,7 +22,7 @@ const Projects = ({ lang }: Props) => {
         <img src="/images/wave.svg" alt="fala" />
       </div>
 
-      <div className="grid gap-8 grid-cols-[repeat(auto-fill,minmax(20rem,1fr))] flex-wrap justify-between mx-6">
+      <div className="grid gap-8 grid-cols-[repeat(auto-fill,minmax(20rem,1fr))] flex-wrap justify-between mx-6 mb-4">
         {projects[lang].projects.map(
           ({ name, description, link, github, image }) => {
             return (
