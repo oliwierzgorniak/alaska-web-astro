@@ -7,7 +7,7 @@ type Props = {
 };
 
 const Project = ({ name, description, link, github, image }: Props) => (
-  <div key={link} className=" border-2 px-10 py-10">
+  <div key={link} className="w-full max-w-[25rem] border-2 px-10 py-10">
     <h3 className="mb-3 font-semibold">{name}</h3>
     <p className="mb-5">{description}</p>
     <div className="flex gap-1 mb-8">
@@ -27,7 +27,30 @@ const Project = ({ name, description, link, github, image }: Props) => (
       </a>
     </div>
     <a href={link} target="_blank" rel="noopener noreferrer">
-      <img src={image} alt="zdjęcie projektu" />
+      <picture>
+        <source
+          srcset={image + "-670.avif"}
+          media="(min-width: 1700px)"
+          type="image/avif"
+        />
+        <source
+          srcset={image + "-670.png"}
+          media="(min-width: 1700px)"
+          type="image/png"
+        />
+        <source
+          srcset={image + "-420.avif"}
+          media="(min-width: 500px)"
+          type="image/avif"
+        />
+        <source
+          srcset={image + "-420.png"}
+          media="(min-width: 500px)"
+          type="image/png"
+        />
+        <source srcset={image + "-230.avif"} type="image/avif" />
+        <img src={image + "-230.png"} alt="zdjęcie projektu" />
+      </picture>
     </a>
   </div>
 );
