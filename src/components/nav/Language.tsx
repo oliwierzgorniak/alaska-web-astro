@@ -9,18 +9,19 @@ const Language = ({ lang }: Props) => {
 
   return (
     <div className="flex border border-black p-2 gap-2 items-center h-min">
-      <img src="/images/languages.svg" alt="ikonka języków" />
+      <img
+        className="min-w-[22px] w-[1.5vw] "
+        src="/images/languages.svg"
+        alt="ikonka języków"
+      />
       <select
+        value={lang}
         ref={selectRef}
         onChange={() => (location.pathname = "/" + selectRef.current.value)}
         className="bg-[transparent]"
       >
-        <option selected={lang === "pl"} value="pl">
-          polski
-        </option>
-        <option selected={lang === "en"} value="en">
-          english
-        </option>
+        <option value="pl">polski</option>
+        <option value="en">english</option>
       </select>
     </div>
   );

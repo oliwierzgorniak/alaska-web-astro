@@ -32,7 +32,7 @@ type Props = { menuOpen: boolean; setMenuOpen: (menuOpen: boolean) => void };
 const MenuButton = ({ menuOpen, setMenuOpen }: Props) => (
   <button
     onClick={() => setMenuOpen(!menuOpen)}
-    className="flex flex-col gap-[6px] h-min p-[5px] mr-[-5px] mt-[-5px]"
+    className="flex flex-col gap-[6px] h-min p-[5px] mr-[-5px] md:scale-[2] md:mr-[13px]"
   >
     <motion.div
       transition={{ type: "tween" }}

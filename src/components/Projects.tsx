@@ -17,19 +17,23 @@ const Projects = ({ lang }: Props) => {
         <img src="/images/wave.svg" alt="fala" />
       </div>
 
-      {projects[lang].projects.map(
-        ({ name, description, link, github, image }) => {
-          return (
-            <Project
-              name={name}
-              description={description}
-              link={link}
-              github={github}
-              image={image}
-            />
-          );
-        }
-      )}
+      <div>
+        {projects[lang].projects.map(
+          ({ name, description, link, github, image }) => {
+            return (
+              <div key={link}>
+                <Project
+                  name={name}
+                  description={description}
+                  link={link}
+                  github={github}
+                  image={image}
+                />
+              </div>
+            );
+          }
+        )}
+      </div>
     </section>
   );
 };

@@ -1,12 +1,12 @@
 {
   "pl": {
-    "sectionId": "contact",
+    "sectionId": "kontakt",
     "imgAlt": "góry i las",
     "title": "Kontakt",
     "buttonText": "wyślij maila"
   },
   "en": {
-    "sectionId": "kontakt",
+    "sectionId": "contact",
     "imgAlt": "mountains and a forrest",
     "title": "Contact",
     "buttonText": "send an email"

@@ -11,7 +11,7 @@ const Contact = ({ lang }: Props) => (
       src="/images/contact.svg"
       alt={contact[lang].imgAlt}
     />
-    <div className="flex flex-col items-center my-[-2rem]">
+    <div className="flex flex-col items-center my-[-2rem] pb-[2rem] xl:my-[-4rem] xl:pb-[4rem] 2xl:my-[-5rem] 2xl:pb-[5rem]">
       <h2 className="text-3xl mb-10">{contact[lang].title}</h2>
       <span className="text-center font-semibold mb-10 text-xl">
         Email: <br />

@@ -11,14 +11,14 @@ const Project = ({ name, description, link, github, image }: Props) => (
     <h3 className="mb-3 font-semibold">{name}</h3>
     <p className="mb-5">{description}</p>
     <div className="flex gap-1 mb-8">
-      <a className="p-2" href={link}>
+      <a className="p-2" href={link} rel="noopener noreferrer">
         <img
           className="h-10"
           src="/images/external-link.svg"
           alt="ikonka zewnętrznego linku"
         />
       </a>
-      <a className="p-2" href={github}>
+      <a className="p-2" href={github} rel="noopener noreferrer">
         <img
           className="h-10"
           src="/images/Github-black.png"

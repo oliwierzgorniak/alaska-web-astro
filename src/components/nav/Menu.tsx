@@ -33,7 +33,7 @@ const Menu = ({ setMenuOpen, lang }: Props) => (
       inital="hidden"
       animate="visible"
       exit="exit"
-      className="fixed top-0 left-0 translate-x-[-100%] h-full bg-[white] px-16 drop-shadow-xl z-20 flex flex-col  justify-between
+      className="fixed top-0 left-0 translate-x-[-100%] h-full bg-[white] px-16 drop-shadow-xl z-20 flex flex-col  justify-between items-center
     "
     >
       <ul className="mt-12">
@@ -67,25 +67,25 @@ const Menu = ({ setMenuOpen, lang }: Props) => (
       </ul>
       <div className="flex items-center mb-4">
         <a
-          className="p-[9px]"
+          className="p-[11px] xl:p-[15px]"
           href="https://twitter.com/oliwierzgorniak"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            className="w-[34px] h-[34px]"
+            className="w-[34px] h-[34px] xl:w-[52px] xl:h-[52px]"
             src="/images/Github-black.png"
             alt={nav[lang].menuImgs.github}
           />
         </a>
         <a
-          className="p-[9px]"
+          className="p-[11px] xl:-[15px]"
           href="https://github.com/oliwierzgorniak"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            className="w-[34px]"
+            className="w-[34px] xl:w-[52px]"
             src="/images/Twitter-black.svg"
             alt={nav[lang].menuImgs.twitter}
           />

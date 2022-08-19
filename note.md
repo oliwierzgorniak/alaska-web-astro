@@ -8,3 +8,4 @@
 - https://www.youtube.com/watch?v=SuqU904ZHA4
 - https://www.framer.com/docs
 - https://frontendchecklist.io/
+- https://www.pluralsight.com/guides/how-to-get-selected-value-from-a-mapped-select-input-in-react
